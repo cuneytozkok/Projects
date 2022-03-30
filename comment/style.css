@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.content {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+.content img {
+  height: 50px;
+  width: 50px;
+  margin-right: 0.6rem;
+}
+.fa-star {
+  font-size: 13px;
+}
+.fa-star.checked {
+  color: orange;
+}
+.btn-light:hover {
+  border-color: #c1c9d0;
+  color: #0d6efd;
+}
