@@ -1,0 +1,150 @@
+:root {
+  --white: #fff;
+  --primary: #2b2e4a;
+  --secondary: #53354a;
+  --dark: #222831;
+  --yellow: #f9ed69;
+  --light: #eeeeee;
+  --purple: #8a39e1;
+}
+
+/* text color */
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-dark {
+  color: var(--dark);
+}
+.text-yellow {
+  color: var(--yellow);
+}
+.text-light {
+  color: var(--light);
+}
+
+/* bg colors */
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.bg-light {
+  background-color: var(--light);
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 1.6rem;
+}
+.btn-secondary {
+  background-color: var(--secondary);
+  color: #fff;
+  font-size: 1.6rem;
+}
+.btn-dark {
+  background-color: var(--dark);
+  color: #fff;
+  font-size: 1.6rem;
+}
+.flex-items {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+/* flex columns */
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+.flex-columns .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+}
+/* blog */
+.flex-columns.blogs {
+  padding: 1rem 0rem;
+}
+.flex-columns .column {
+  flex: 1;
+}
+.flex-columns .column-1,
+.flex-columns .column-2 {
+  height: 100%;
+}
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  padding: 3rem;
+}
+.flex-columns .column-1 img {
+  width: 100%;
+  height: 100%;
+}
+/* section-header */
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+.section-header h1 {
+  font-size: 4rem;
+}
+.section-padding {
+  padding: 2rem;
+}
+/* grid */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.4rem;
+}
+.flex-grid .row .column {
+  flex: 25%;
+  padding: 0 0.4rem;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-column .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+.flex-column .row .column {
+  flex: 33.3%;
+  padding: 2rem;
+  text-align: center;
+}
+/* team */
+/* contact */
